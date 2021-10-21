@@ -1,0 +1,32 @@
+{
+  "name": "ahj-hw-12-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": "https://github.com/Katrina-Panina/ahj-hw-12-backend.git",
+  "author": "Katerina Panina <khomenko.kat@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katrina-Panina/ahj-hw-12-backend/issues"
+  },
+  "homepage": "https://github.com/Katrina-Panina/ahj-hw-12-backend#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "faker": "^5.5.3",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-slow": "^2.1.0",
+    "node-unique-id-generator": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
